@@ -12,6 +12,8 @@ var myHomeAddress ="123 Elm Street";
 var milesToStore = 8.5 ;
 var construction;
 var myFavoriteStore = "Publix Supermarket";
+var stuff = prompt("Do you like puppies");
+var
 
 //adding my confirm
 //confirm () ;
@@ -23,4 +25,4 @@ console.log("I live at " + myHomeAddress + "."); // this is my first output
 console. log ("I shop at " + myFavoriteStore + ".");
 console. log ("It's only " + milesToStore + " miles to the store. ");
 console. log ("It's " +construction + " that there is construction enroute.");
-
+console. log("I like puppies. ");
