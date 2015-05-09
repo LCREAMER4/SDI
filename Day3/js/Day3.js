@@ -18,7 +18,7 @@ if(newName === myName) {
     lastName = prompt("Please enter your last name");
     if (lastName === "Creamer") {
     //If first name is correct and last name is correct
-        console.log(" Greetins," + myName +" "+ lastName)
+        console.log(" Greetings," + myName +" "+ lastName)
     } else {
         //If first name is correct and last name is incorrect
         console.log("Sorry you're from the wrong family!");
@@ -30,13 +30,13 @@ if(newName === myName) {
 
 //new variables for data type tests
 var myNumber = 0;
-var secondNumber = 5;
+var secondNumber = 3.14159265;
 
-myNumber = parseInt(prompt("Enter the number 5."));
+myNumber = parseFloat(prompt("Enter the number 3.14159265."));
 if (myNumber === secondNumber) {
-    console.log("They match exactly!");
+    console.log("They match exactly! The number was " + myNumber);
 }else {
-console.log("The data types are wrong!");
+console.log("The number you entered was " + myNumber);
 
 }
 
