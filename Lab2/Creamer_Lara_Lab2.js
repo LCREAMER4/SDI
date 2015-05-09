@@ -19,6 +19,6 @@ console.log("I will be planning a vacation for my family of " + myFamily + ".");
 console.log("It is snowing today. "+ weather + ".");
 
 //confirm();
-raining=confirm ("Is it snowing today? Click OK for yes, cancel for no.");
+var raining=confirm ("Is it snowing today? Click OK for yes, cancel for no.");
 
 var prompt = prompt("Time for vacation");

@@ -13,7 +13,7 @@ var milesToStore = 8.5 ;
 var construction;
 var myFavoriteStore = "Publix Supermarket";
 var stuff = prompt("Do you like puppies");
-var
+
 
 //adding my confirm
 //confirm () ;
