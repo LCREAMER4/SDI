@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3abd3ec3-b393-4e3a-8c8d-9a86434f7cb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sdi-lab3/Creamer_Lara_Lab3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Day3.js" afterPath="$PROJECT_DIR$/js/Day3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day4/Day4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day4/script.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled folder/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled folder/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled folder/.idea/untitled folder.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled folder/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled folder/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sdi-lab3/sdi-lab3.html" afterPath="$PROJECT_DIR$/../sdi-lab3/sdi-lab3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sdi-lab3/sdi.css" afterPath="$PROJECT_DIR$/../sdi-lab3/sdi.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sdi-lab3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sdi-lab3/.idea/workspace.xml" />
     </list>
     <ignored path="untitled folder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +47,7 @@
       <file leaf-file-name="Day3.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Day3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0648379">
+            <state vertical-scroll-proportion="0.07481297">
               <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -90,7 +99,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -101,19 +110,13 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sdi-lab3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
@@ -254,7 +257,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Day3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0648379">
+        <state vertical-scroll-proportion="0.07481297">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
