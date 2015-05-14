@@ -1,4 +1,4 @@
-/* Lara Creamer
+/* Lara Creame
 SDI 1505
 May 14 2015
 Day 5 Lecture
