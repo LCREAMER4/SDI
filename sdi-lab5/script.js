@@ -25,3 +25,26 @@ function multiplication (num1, num2) {
 }
 
 
+function division(num1, num2) {
+    var divide = num1 / num2;
+    return (divide);
+
+}
+//Main Code
+
+if(opPrompt === "+"){
+    final = addition(firstNumber, secondNumber)
+} else if (opPrompt === "-"){
+    final = subtraction(firstNumber, secondNumber)
+} else if (opPrompt === "*") {
+    final = multiplication(firstNumber, secondNumber)
+} else if (opPrompt ==="/") {
+    final = division(firstNumber, secondNumber);
+    if (opPrompt === division && secondNumber === 0){
+        final=console.log("This function is undefined because it cannot be divided by 0.")
+    }
+
+
+}
+
+console.log(firstNumber + opPrompt + secondNumber + " = " + final);
