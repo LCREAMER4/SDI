@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30b09f0b-3b53-49fe-9c47-14e3335283af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdi-lab6/Day6.js" afterPath="$PROJECT_DIR$/sdi-lab6/Day6.js" />
-    </list>
+    <list default="true" id="30b09f0b-3b53-49fe-9c47-14e3335283af" name="Default" comment="" />
     <ignored path="SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day6.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Day6.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sdi-lab6/Day6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.20522387">
+              <caret line="11" column="69" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="69" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -47,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sdi-lab6.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sdi-lab6.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdi-lab6/sdi-lab6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.057692308">
+            <state vertical-scroll-proportion="-1.875">
               <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
               <folding />
             </state>
@@ -414,21 +412,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdi-lab6/Day6.js">
+    <entry file="file://$PROJECT_DIR$/sdi-lab6/sdi-lab6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdi-lab6/sdi-lab6.html">
+    <entry file="file://$PROJECT_DIR$/sdi-lab6/Day6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.057692308">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-          <folding />
+        <state vertical-scroll-proportion="0.20522387">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="69" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
