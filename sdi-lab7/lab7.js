@@ -19,7 +19,7 @@ function bubbleSort(argArray) {
             if (argArray[x] > argArray[x+1]) {
                numHold = argArray[x];
                 argArray[x] = argArray[x+1];
-                argArray[x+1] = numHold
+                argArray[x+1] = numHold;
             }
 
         }
@@ -32,16 +32,13 @@ returnedArray = bubbleSort(array1);
 console.log("The new array is " + returnedArray);
 
 for (var z = 0; z < 3; z++) {
- if (z = 1) {
-
- } else  if {
-
+ if (z === 0) {
+    console.log("The new array is " + bubbleSort(array1));
+ } else if (z === 1){
+    console.log("The new array is " + bubbleSort(array2));
  }else{
-        
-    }
+    console.log("The new array is " + bubbleSort(array3));
+ }
 
 
 }
-
-
-
