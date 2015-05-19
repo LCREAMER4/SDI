@@ -9,6 +9,7 @@ var numberArray =[1,2,3,4,5,6,7,8,9,10,11,12];
 var returnedArray = [];
 var userPrompt;
 
+
 userPrompt = prompt("Enter 'odd' to return odd numbers, or 'even' to return even numbers.");
 
 while (userPrompt != "odd" && userPrompt != "even") {
@@ -27,6 +28,8 @@ function evenArray(argArray, oddOrEven) {
     var modNum;
     var zeroOrOne;
 
+
+
     if(oddOrEven === "odd") {
        zeroOrOne = 1;
 
@@ -37,8 +40,8 @@ function evenArray(argArray, oddOrEven) {
 
     for(i=0; i<argArray.length;i++) {
         modNum = argArray[i] % 2;
-        if(modNum === zeroOrOne) {
-            newArray.push(argArray[i]);
+        if(numberArray === zeroOrOne) {
+            newArray.push(numberArray[i]);
 
         }
 
@@ -52,5 +55,6 @@ function evenArray(argArray, oddOrEven) {
 returnedArray = evenArray(numberArray, userPrompt);
 
 console.log(" The " + userPrompt +  " numbers array is " + returnedArray);
+console.log("numberArray:" + numberArray );
 
 
