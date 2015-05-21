@@ -12,11 +12,7 @@ function subString(argEmail) {
 
     if ((argEmail.indexOf(findAt) === -1) || (argEmail.indexOf(findPeriod) === -1) || (argEmail.indexOf(noSpaces) > -1)) {
         console.log("Your email is incorrect, please enter a valid email address.");
-    }
-            else if (argEmail.indexOf(findAt)>1) {
-        console.log("Your email is incorrect because you have more than one @ symbol.")
-    }
-    else {
+    } else {
         console.log("Your email address is correct.")
     }
 
