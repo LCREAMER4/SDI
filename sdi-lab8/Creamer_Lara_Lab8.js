@@ -7,28 +7,22 @@ var myEmail;
 var findAt = "@";
 var findPeriod = ".";
 var noSpaces = " ";
-var validEmail;
+
 function subString(argEmail) {
 
-    if (argEmail.indexOf(findAt) === -1) {
-        return false;
+    if ((argEmail.indexOf(findAt) === -1) || (argEmail.indexOf(findPeriod) === -1) || (argEmail.indexOf(noSpaces) > -1)) {
+        console.log("Your email is incorrect, please enter a valid email address.");
     }
-
-    if (argEmail.indexOf(findPeriod) === -1) {
-       return false;
-
+            else if (argEmail.indexOf(findAt)>1) {
+        console.log("Your email is incorrect because you have more than one @ symbol.")
     }
-    if (argEmail.indexOf(noSpaces) > -1) {
-        return false;
-
-    } else {
-        return true;
+    else {
+        console.log("Your email address is correct.")
     }
 
 }
 myEmail=prompt("Please enter your email address.");
 
-validEmail = subString(myEmail);
+subString(myEmail);
 
-console.log(validEmail);
 
