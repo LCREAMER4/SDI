@@ -21,19 +21,29 @@ Lab 8
 //
 //subString(myEmail);
 
-var string1 = "1,2,3,4,5";
-var sep1 = ",";
+var string1 = "1 2 3 4 5";
+var sep1 = "-";
 var sep2 = "/";
-var newList;
-var currentSpace;
-var holder;
-
-function stringSplit(string1, sep1, sep2) {
-    newList = string1.remove (","); {
 
 
 
-        return newList
+function stringSplit(argString, sep1, sep2) {
+
+    var newList;
+
+  newList = argString.split(" ");
+
+
+    for (var each in newList) {
+        newList = argString[each] + "-"
+
     }
+
+    return newList
+
+
+
+
+
 }
-newArray =stringSplit();
+newArray =stringSplit(string1);
