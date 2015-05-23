@@ -24,26 +24,27 @@ Lab 8
 var string1 = "1 2 3 4 5";
 var sep1 = "-";
 var sep2 = "/";
+var hold;
+var newList;
+var num1;
+var num2;
+
+function stringSplit(argString) {
+    for (var i = "-"; i < argString.length;i++) {
+        for (var x = "/"; x < argString.length; x++){
+        if (argString[i] < argString[x]){
+            hold = argString([i]);
+            argString[i] = argString [i+1];
+            argString[i+1] = hold
+        }
 
 
 
-function stringSplit(argString, sep1, sep2) {
-
-    var newList;
-
-  newList = argString.split(" ");
-
-
-    for (var each in newList) {
-        newList = argString[each] + "-"
-
-    }
-
-    return newList
+        }
 
 
 
-
+        }
 
 }
-newArray =stringSplit(string1);
+newList =stringSplit(string1);
