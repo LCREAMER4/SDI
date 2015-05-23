@@ -5,7 +5,7 @@
  */
 
 //global variables
-var myEmail = "lcreamer@fullsail.com";
+var myEmail = "lcre.amer@fullsail.com";
 var emailTrueOrFalse;
 
 //problem functions
@@ -13,7 +13,7 @@ var emailTrueOrFalse;
 function checkEmail(argEmail) {
     var goodEmail = false;
     var atSymbol = argEmail.indexOf("@");
-    var dotSymbol = argEmail.indexOf(".");
+    var dotSymbol = argEmail.lastIndexOf(".");
     var noSpaces = argEmail.indexOf (" ");
     var lastAt = argEmail.lastIndexOf("@");
 
@@ -21,14 +21,18 @@ function checkEmail(argEmail) {
     if(atSymbol === lastAt && atSymbol> -1) {
        goodEmail = true;
     } else {
-        goodEmail = false;
+        return false;
     }
     if(dotSymbol > atSymbol) {
         goodEmail = true;
     } else {
-        goodEmail = false;
+        return false;
     }
-    
+    if (noSpaces ==-1 ) {
+        goodEmail = true;
+    } else {
+        goodEmail = false
+    }
 
 return goodEmail
 
