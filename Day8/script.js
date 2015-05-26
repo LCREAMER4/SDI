@@ -25,25 +25,25 @@ May 21, 2015
 //var numArrays= [array1, array2, array3];
 //var returnedArray;
 //
-//function bubbleSort(argArray) {
-////variables
-//    var num1,
-//        num2,
-//        holder;
-////loop through the aray
-//    for (var newElement in argArray) {
-//        for (var element in argArray) {
-//
-//            element = parseInt(element);
-//
-////assign array elements to variables
-//            num1 = argArray[element];
-//            num2 = argArray[element + 1];
-//            //compare to see which is greater
-//            if (num1 > num2) {
-//                holder = num1;
-//                argArray[element] = num2;
-//                argArray[element + 1] = num1;
+function bubbleSort(argArray) {
+//variables
+    var num1,
+        num2,
+        holder;
+//loop through the aray
+    for (var newElement in argArray) {
+        for (var element in argArray) {
+
+            element = parseInt(element);
+
+//assign array elements to variables
+            num1 = argArray[element];
+            num2 = argArray[element + 1];
+            //compare to see which is greater
+            if (num1 > num2) {
+                holder = num1;
+                argArray[element] = num2;
+                argArray[element + 1] = num1;
 //
 //            }
 //
