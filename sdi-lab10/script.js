@@ -31,3 +31,11 @@ function lottery (argLottery) {
 //main code
 returnedLot=lottery(lot);
 poppedItem = returnedLot.pop();
+if(lot === "powerball") {
+    console.log("Your random numbers for your Powerball lottery are " + returnedLot + " with " + poppedItem + " as the powerball");
+}
+if(lot === "flLot") {
+    console.log("Your random numbers for your Florida lottery are " + returnedLot);
+}
+
+
