@@ -19,4 +19,15 @@ function lottery (argLottery) {
     }
     returnedLot.push(Math.round(Math.random() * (35 - 1) + 1));
 
-  
+    if(argLottery === "flLot") {
+        for (var z = 0; z < 6; z++)
+            returnedLot.push(Math.round(Math.random() * (53 - 1) + 1));
+    }
+
+    return returnedLot
+
+}
+
+//main code
+returnedLot=lottery(lot);
+poppedItem = returnedLot.pop();
