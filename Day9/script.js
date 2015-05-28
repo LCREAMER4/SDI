@@ -79,41 +79,41 @@ goodDates();
 
 
 
-////global variables
-//var myEmail = "lcre.amer@fullsail.com";
-//var emailTrueOrFalse;
-//var stringList= "a,c,b,c,d,e+f,g,h";
-//var first = ",";
-//var second = "/";
-////problem functions
-////First function check an email address
-//function checkEmail(argEmail) {
-//    var goodEmail = false;
-//    var atSymbol = argEmail.indexOf("@");
-//    var dotSymbol = argEmail.lastIndexOf(".");
-//    var noSpaces = argEmail.indexOf (" ");
-//    var lastAt = argEmail.lastIndexOf("@");
-//
-//  //check for @ symbol
-//    if(atSymbol === lastAt && atSymbol> -1) {
-//       goodEmail = true;
-//    } else {
-//        return false;
-//    }
-//    if(dotSymbol > atSymbol) {
-//        goodEmail = true;
-//    } else {
-//        return false;
-//    }
-//    if (noSpaces ==-1 ) {
-//        goodEmail = true;
-//    } else {
-//        goodEmail = false
-//    }
-//
-//return goodEmail
-//
-//}
+//global variables
+var myEmail = "lcre.amer@fullsail.com";
+var emailTrueOrFalse;
+var stringList= "a,c,b,c,d,e+f,g,h";
+var first = ",";
+var second = "/";
+//problem functions
+//First function check an email address
+function checkEmail(argEmail) {
+    var goodEmail = false;
+    var atSymbol = argEmail.indexOf("@");
+    var dotSymbol = argEmail.lastIndexOf(".");
+    var noSpaces = argEmail.indexOf (" ");
+    var lastAt = argEmail.lastIndexOf("@");
+
+  //check for @ symbol
+    if(atSymbol === lastAt && atSymbol> -1) {
+       goodEmail = true;
+    } else {
+        return false;
+    }
+    if(dotSymbol > atSymbol) {
+        goodEmail = true;
+    } else {
+        return false;
+    }
+    if (noSpaces ==-1 ) {
+        goodEmail = true;
+    } else {
+        goodEmail = false
+    }
+
+return goodEmail
+
+}
 //function stringSep(oldString, firstSep, newSep) {
 //    var newString = "";
 //
@@ -130,7 +130,7 @@ goodDates();
 //}
 //
 ////Main code
-////emailTrueOrFalse = checkEmail(myEmail);
-////console.log("It is " + emailTrueOrFalse + " that this email is valid");
+emailTrueOrFalse = checkEmail(myEmail);
+console.log("It is " + emailTrueOrFalse + " that this email is valid");
 //    returnedString = stringSep(stringList, first, second);
 //    console.log("The new string is " + returnedString);

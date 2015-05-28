@@ -30,11 +30,11 @@ function evenArray(argArray, oddOrEven) {
 
 
 
-    if(oddOrEven === "odd") {
-       zeroOrOne = 1;
+        if(oddOrEven === "odd") {
+            zeroOrOne = 1;
 
-    } else {
-        zeroOrOne = 0;
+        } else {
+            zeroOrOne = 0;
 
     }
 
